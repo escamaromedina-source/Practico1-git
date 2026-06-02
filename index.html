@@ -3,7 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>todavia nose</title>
+    <title>Kit RPG Web</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
+<body>
+
+    <div class="contenedor">
+
+        <h1> KIT RPG </h1>
+
+        <!-- DADOS -->
+        <section>
+            <h2> Tirar Dados</h2>
+
+            <button onclick="tirarDado(6)">d6</button>
+            <button onclick="tirarDado(20)">d20</button>
+
+            <p id="resultadoDado">Resultado: -</p>
+        </section>
+
+        <!-- VIDA -->
+        <section>
+            <h2> Vida</h2>
+
+            <div class="barra">
+                <div id="vida"></div>
+            </div>
+
+            <p id="textoVida">100 / 100</p>
+
+            <button onclick="cambiarVida(-10)">-10 daño</button>
+            <button onclick="cambiarVida(10)">+10 curar</button>
+        </section>
+
+        <!-- INVENTARIO -->
+        <section>
+            <h2> Inventario</h2>
+
+            <input type="text" id="objeto" placeholder="Nuevo objeto">
+
+            <button onclick="agregarObjeto()">Agregar</button>
+
+            <ul id="inventario"></ul>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
