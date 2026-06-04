@@ -7,7 +7,7 @@
 
 ### **INTEGRANTES:** Amaro MEDINA, Fernando TORRES.
 
-### **TECNOLOGÍAS UTILIZDAS:** HTML, JavaScript, CCS.
+### **TECNOLOGÍAS UTILIZADAS:** HTML, JavaScript, CCS.
 
 ### **INSTRUCCIONES DE USO:** (continuar)
 
