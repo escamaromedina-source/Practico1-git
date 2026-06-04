@@ -7,8 +7,8 @@
 
 ### **INTEGRANTES:** Amaro MEDINA, Fernando TORRES.
 
-### **TECNOLOGÍAS UTILIZDAS:** (continuar)
+### **TECNOLOGÍAS UTILIZDAS:** HTML, JavaScript, CCS.
 
 ### **INSTRUCCIONES DE USO:** (continuar)
 
-solucionado???
+
