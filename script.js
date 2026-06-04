@@ -58,6 +58,10 @@ function agregarObjeto() {
         document.createElement("li");
 
     li.innerText = texto;
+    
+    li.onclick = function() {
+    li.remove();
+    };
 
     document.getElementById("inventario")
         .appendChild(li);
