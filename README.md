@@ -9,7 +9,7 @@
 
 ### **TECNOLOGÍAS UTILIZADAS:** HTML, JavaScript, CCS.
 
-### **INSTRUCCIONES DE USO:** (continuar)
+
 
 
 # Kit RPG Web
