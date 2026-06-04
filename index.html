@@ -15,14 +15,27 @@
 
         <!-- DADOS -->
         <section>
-            <h2> Tirar Dados</h2>
+            <h2>Tirar Dados</h2>
 
-            <button onclick="tirarDado(6)">d6</button>
-            <button onclick="tirarDado(10)">d10</button>
-            <button onclick="tirarDado(20)">d20</button>
+    <div class="dados">
+        <button onclick="tirarDado(6)">
+            <img src="img/d6.png" alt="d6">
+            <span>d6</span>
+        </button>
 
-            <p id="resultadoDado">Resultado: -</p>
-        </section>
+        <button onclick="tirarDado(10)">
+            <img src="img/d10.png" alt="d10">
+            <span>d10</span>
+        </button>
+
+        <button onclick="tirarDado(20)">
+            <img src="img/d20.png" alt="d20">
+            <span>d20</span>
+        </button>
+    </div>
+
+    <p id="resultadoDado">Resultado: -</p>
+</section>
 
         <!-- VIDA -->
         <section>
