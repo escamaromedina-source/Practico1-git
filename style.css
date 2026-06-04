@@ -48,3 +48,34 @@ button {
 
     background: limegreen;
 }
+
+#dado {
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin:20px 0;
+}
+
+.dados button{
+    background:none;
+    border:none;
+    cursor:pointer;
+    transition:transform 0.2s;
+}
+
+.dados button:hover{
+    transform:scale(1.15);
+}
+
+.dados img{
+    width:70px;
+    height:70px;
+    display:block;
+}
+
+.dados span{
+    display:block;
+    color:white;
+    margin-top:5px;
+    font-weight:bold;
+}
