@@ -11,4 +11,38 @@
 
 ### **INSTRUCCIONES DE USO:** (continuar)
 
-solucionado???
+# Kit RPG Web
+
+Una aplicación web simple desarrollada con **HTML, CSS y JavaScript** que simula herramientas básicas de un juego de rol (RPG).
+
+## Estructura del Proyecto
+
+```text
+KitRPGWeb/
+│
+├── index.html
+├── style.css
+└── script.js
+```
+
+## ⚙️ Instalación y Ejecución
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/usuario/kit-rpg-web.git
+```
+
+### 2. Acceder al proyecto
+
+```bash
+cd kit-rpg-web
+```
+
+### 3. Ejecutar la aplicación
+
+Abrir el archivo:
+
+```text
+index.html
+```
