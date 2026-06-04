@@ -79,3 +79,10 @@ button {
     margin-top:5px;
     font-weight:bold;
 }
+
+#resultadoDado{
+    font-size:24px;
+    font-weight:bold;
+    color:#ffd700;
+    text-align:center;
+}
