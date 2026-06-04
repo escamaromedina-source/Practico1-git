@@ -30,7 +30,7 @@ KitRPGWeb/
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/usuario/kit-rpg-web.git
+git https://github.com/escamaromedina-source/Practico1-git.git
 ```
 
 ### 2. Acceder al proyecto
