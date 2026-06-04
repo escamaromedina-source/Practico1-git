@@ -23,6 +23,10 @@ function cambiarVida(valor) {
         vida = 0;
     }
 
+    if (vida === 0) {
+    alert("Has sido derrotado");
+    }
+
     actualizarVida();
 }
 
@@ -54,6 +58,10 @@ function agregarObjeto() {
         document.createElement("li");
 
     li.innerText = texto;
+    
+    li.onclick = function() {
+    li.remove();
+    };
 
     document.getElementById("inventario")
         .appendChild(li);

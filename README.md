@@ -1,0 +1,13 @@
+
+# **TECNICO SUPERIOR EN DESARROLLO DE SOFTWARE**
+
+## **GESTION DE PROYECTOS DE SOFTWARE**
+
+### **TITULO:** Práctico N° 1.
+
+### **INTEGRANTES:** Amaro MEDINA, Fernando TORRES.
+
+### **TECNOLOGÍAS UTILIZDAS:** (continuar)
+
+### **INSTRUCCIONES DE USO:** (continuar)
+hoal
