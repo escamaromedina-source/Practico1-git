@@ -92,3 +92,20 @@ button {
     color:#ffd700;
     text-align:center;
 }
+
+#inventario{
+    list-style:none;
+    padding:0;
+}
+
+#inventario li{
+    background:#333;
+    margin:5px 0;
+    padding:10px;
+    border-left:4px solid gold;
+    cursor:pointer;
+}
+
+#inventario li:hover{
+    background:#444;
+}
