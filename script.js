@@ -27,8 +27,9 @@ function cambiarVida(valor) {
 
 
 
-    if (vida === 0) {
-         sonidoMuerte.play();
+    if (vida === 0 && !muerto) {
+        muerto = true;
+        sonidoMuerte.play();
         alert("Has sido derrotado");
     
 
