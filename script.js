@@ -25,8 +25,7 @@ function cambiarVida(valor) {
         vida = 0;
     }
 
-    
-    alert("¡Has muerto!");
+
 
     if (vida === 0) {
     alert("Has sido derrotado");
