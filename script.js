@@ -25,14 +25,14 @@ function cambiarVida(valor) {
         vida = 0;
     }
 
-
-
     if (vida === 0 && !muerto) {
         muerto = true;
         sonidoMuerte.play();
-        alert("Has sido derrotado");
-    
+        alert("¡Has sido derrotado!");
+    }
 
+    if (vida > 0) {
+        muerto = false;
     }
 
     actualizarVida();
