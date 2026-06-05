@@ -15,33 +15,24 @@ function actualizarVida() {
 
 function cambiarVida(valor) {
 
-let vidaActual = 100;
+    vida += valor;
 
-const sonidoMuerte = new Audio("sonidos/game-over.mp3");
-
-function cambiarVida(cantidad) {
-
-    vidaActual += cantidad;
-
-    if (vidaActual > 100) {
-        vidaActual = 100;
+    if (vida > 100) {
+        vida = 100;
     }
 
-    if (vidaActual < 0) {
-        vidaActual = 0;
+    if (vida < 0) {
+        vida = 0;
     }
 
-    document.getElementById("textoVida").textContent =
-        vidaActual + " / 100";
+    
+    alert("¡Has muerto!");
 
-    document.getElementById("vida").style.width =
-        vidaActual + "%";
+    if (vida === 0) {
+    alert("Has sido derrotado");
+    sonidoMuerte.play();
 
-    if (vidaActual === 0) {
-        sonidoMuerte.play();
-        alert("¡Game Over!");
     }
-
 
     actualizarVida();
 }
