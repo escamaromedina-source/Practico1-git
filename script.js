@@ -3,7 +3,7 @@
 
 let vida = 100;
 
-const sonidoMuerte = new Audio("sonidos/error.bfxr");
+const sonidoMuerte = new Audio("sonidos/error.mp3");
 
 function actualizarVida() {
 
