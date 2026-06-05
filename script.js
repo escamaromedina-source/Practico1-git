@@ -3,6 +3,8 @@
 
 let vida = 100;
 
+const sonidoMuerte = new Audio("sonido/error.mp3");
+
 function actualizarVida() {
 
     document.getElementById("vida").style.width = vida + "%";
@@ -23,8 +25,14 @@ function cambiarVida(valor) {
         vida = 0;
     }
 
-    if (vida === 0) {
-    alert("Has sido derrotado");
+    if (vida === 0 && !muerto) {
+        muerto = true;
+        sonidoMuerte.play();
+        alert("¡Has sido derrotado!");
+    }
+
+    if (vida > 0) {
+        muerto = false;
     }
 
     actualizarVida();
