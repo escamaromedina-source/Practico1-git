@@ -1,12 +1,23 @@
 body {
     font-family: Arial;
-    background: #202020;
     color: white;
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.8),
+            rgba(0,0,0,0.8)
+        ),
+        url("C:\Users\Fernando\Downloads\imgfondo-rpg.jpg.png");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 
     display: flex;
     justify-content: center;
 
     padding-top: 30px;
+    min-height: 100vh;
 }
 
 .contenedor {
@@ -31,20 +42,70 @@ button {
     cursor: pointer;
 }
 
-.barra {
-    width: 100%;
-    height: 30px;
-
-    background: gray;
-
-    border-radius: 10px;
-
-    overflow: hidden;
+.barra{
+    background:#444;
+    border-radius:20px;
+    overflow:hidden;
 }
 
-#vida {
-    width: 100%;
-    height: 100%;
+#vida{
+    background:linear-gradient(90deg,#ff0000,#00ff00);
+    height:30px;
+    width:100%;
+    transition:0.3s;
+}
 
-    background: limegreen;
+#dado {
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin:20px 0;
+}
+
+.dados button{
+    background:none;
+    border:none;
+    cursor:pointer;
+    transition:transform 0.2s;
+}
+
+.dados button:hover{
+    transform:scale(1.15);
+}
+
+.dados img{
+    width:70px;
+    height:70px;
+    display:block;
+}
+
+.dados span{
+    display:block;
+    color:white;
+    margin-top:5px;
+    font-weight:bold;
+}
+
+#resultadoDado{
+    font-size:24px;
+    font-weight:bold;
+    color:#ffd700;
+    text-align:center;
+}
+
+#inventario{
+    list-style:none;
+    padding:0;
+}
+
+#inventario li{
+    background:#333;
+    margin:5px 0;
+    padding:10px;
+    border-left:4px solid gold;
+    cursor:pointer;
+}
+
+#inventario li:hover{
+    background:#444;
 }
